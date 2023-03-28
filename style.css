@@ -1,0 +1,26 @@
+@font-face {
+    font-family: oldFont;
+    src: url('assets/Victorian.ttf');
+}
+
+@font-face {
+    font-family: newFont;
+    src: url('assets/Normal.ttf')
+}
+
+h1 {
+    font-family: oldFont;
+}
+
+p {
+    font-size: 30px
+}
+
+html, body, canvas {
+    font-family: newFont;
+    background-color: lightblue;
+}
+
+ol, li {
+    font-size: larger
+}
